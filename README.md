@@ -4,14 +4,21 @@ A full-stack AI-powered stock market dashboard that displays real-time stock dat
 
 ---
 
-## 🚀 Features
+🚀 Features
 
-- 📊 Live Stock Price Dashboard  
-- 📉 Interactive Graph View  
-- 🤖 AI-powered Stock Analysis  
-- 💻 Modern React Frontend  
-- ⚙️ Spring Boot Backend API  
-- 📁 Clean Full-Stack Architecture  
+✅ Live stock price dashboard
+
+✅ Historical price graph visualization
+
+✅ AI-based stock trend analysis
+
+✅ Modern React UI
+
+✅ RESTful Spring Boot API
+
+✅ Mock data support (ready for real APIs)
+
+✅ GitHub ready deployment structure 
 
 ---
 
@@ -36,68 +43,114 @@ A full-stack AI-powered stock market dashboard that displays real-time stock dat
 
 ## 📂 Project Structure
 ai-stock-dashboard/
+
+
 │
-├── frontend/ # React app
-├── backend/ # Spring Boot API
+
+├── backend/        # Spring Boot API
+
+│   └── src/
+
+│
+
+├── frontend/       # React App
+
+│   └── src/
+
+│
+
 └── README.md
 
 
----
-
-## ▶️ How to Run the Project
-
-### ✅ Backend (Spring Boot)
-
-Open the backend project in Eclipse and run:
-
-Run As → Spring Boot App  
-
-OR run using terminal:
-
-```bash
-
-cd backend
-mvn spring-boot:run
 
 ---
+### Requirements:
 
-### ✅ Full Run Flow (Quick)
-
-```bash
-# Start backend
-cd backend
-mvn spring-boot:run
-
-# In another terminal start frontend
-cd frontend
-npm install
-npm start
-```
-
-📌 Requirements
+Make sure you have installed:
 
 Java 17+
 
 Maven
 
-Node.js + npm
+Node.js (v18+ recommended)
 
-🚀 Project Access
+npm
 
-Frontend → http://localhost:3000
+## ▶️ How to Run the Project
 
-Backend API → http://localhost:8080
+### ✅ Backend (Spring Boot)
 
+Option 1 — Eclipse (easy)
 
----
+  1.Open backend folder in Eclipse
 
-### ✅ After pasting:
+  2.Run RealtickerApplication.java
 
+Option 2 — Terminal
 ```bash
 
-git add README.md
-git commit -m "Add professional run instructions"
-git push
+cd backend
+mvn spring-boot:run
+
+```
+Backend will run at:
+
+http://localhost:8080
 
 
+### ✅ Frontend(React)
+
+```bash
+cd frontend
+npm install
+npm start
+
+```
+Frontend will run at:
+
+http://localhost:3000
+
+
+### Current Data Source
+
+Mock stock dataset (realistic simulation)
+
+Easily replaceable with real APIs like:
+
+  - Alpha Vantage
+
+  - Finnhub
+
+  - Yahoo Finance
+  
+### Future Enhancements
+
+  - Real-time stock API integration
+
+  - Advanced AI predictions
+
+  - Authentication system
+
+  - Dark mode UI
+
+  - Mobile responsive design
+
+  - Cloud deployment
+  
+  
+### Contributing
+  
+  Pull requests are welcome!
+  
+  Feel free to fork and improve.
+  
+### License
+
+  This project is open source for learning and development purposes.
+  
+
+### Author
+
+  Prasanth
+  GitHub: https://github.com/Prasanth197
 
