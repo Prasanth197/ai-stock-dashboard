@@ -103,7 +103,8 @@ http://localhost:8080
 ```bash
 cd frontend
 npm install
-npm start
+.\mvnw spring-boot:run
+
 
 ```
 Frontend will run at:
